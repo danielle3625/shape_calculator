@@ -1,5 +1,5 @@
 import unittest
-import shape_calculator.py
+import shape_calculator
 
 
 class UnitTests(unittest.TestCase):
