@@ -28,7 +28,7 @@ class Rectangle:
     #get_diagonal: Returns diagonal ((width ** 2 + height ** 2) ** .5)
     def get_diagonal(self):
         return((self.width ** 2 + self.height ** 2) ** .5)
-        
+
     #get_picture: 
     def get_picture(self):
         """
@@ -52,7 +52,7 @@ class Rectangle:
 
         self.shape = shape
         if self.shape == shape:
-            num_times = self.get_area() / (sq.width * sq.width)
+            num_times = self.get_area() / (self.width * self.width)
             return int(num_times)
         else:
             num_times = self.get_area() / (self.width * self.height)
