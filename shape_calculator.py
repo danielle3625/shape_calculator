@@ -51,12 +51,10 @@ class Rectangle:
     def get_amount_inside(self, shape):
 
         self.shape = shape
-        if self.shape == shape:
-            num_times = self.get_area() / (self.width * self.width)
-            return int(num_times)
-        else:
-            num_times = self.get_area() / (self.width * self.height)
-            return int(num_times)
+        
+        num_times = self.get_area() / (self.width * self.width)
+        return int(num_times)
+        
 
 
     def __str__(self):
